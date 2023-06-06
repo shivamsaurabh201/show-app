@@ -1,0 +1,98 @@
+/* Reset default margin and padding */
+body,
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set background color and font */
+body {
+  background-color: #f8f8f8;
+  font-family: Arial, sans-serif;
+}
+
+/* Style for TV Shows list container */
+.show-list-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Style for TV Shows list */
+.show-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+/* Style for TV Show card */
+.show-card {
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.show-card h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.show-card p {
+  margin-bottom: 20px;
+}
+
+.show-card a {
+  display: block;
+  text-align: center;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.show-card a:hover {
+  background-color: #0056b3;
+}
+
+/* Style for TV Show details container */
+.show-details-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Style for TV Show details card */
+.show-details-card {
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.show-details-card h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.show-details-card p {
+  margin-bottom: 20px;
+}
+
+.show-details-card button {
+  display: block;
+  margin: 0 auto;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.show-details-card button:hover {
+  background-color: #0056b3;
+}
